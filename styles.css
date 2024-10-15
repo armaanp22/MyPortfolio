@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color:black;
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Home Section */
+  #home {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px;
+  }
+  
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* About Me Section */
+  #about {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  #about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  /* Resume Section */
+  #resume {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  /* Footer Section */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color:black;
+    color: white;
+  }
+  
