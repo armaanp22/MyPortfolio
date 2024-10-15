@@ -11,36 +11,43 @@
    <!-- Navigation Section -->
    <nav>
     <ul>
-        <li><a href="#Home">Home</a></li>
-      <li><a href="#Projects">Projects</a></li>
-      <li><a href="#About">About Me</a></li>
-      <li><a href="#Resume">Resume</a></li>
-      <li><a href="#Contact">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
    </nav>
    <!-- Home section -->
-   <section id="home">
-    <h1>Welcome to My Portfolio</h1>
-    <p>To be written</p>
+<section id="home">
+  <div class="home-container">
+      <div class="home-image">
+          <img src="Armaan image.jpeg" alt="Your Photo">
+      </div>
+      <div class="home-content">
+          <h1>Armaan Puri</h1>
+          <p>This is a short description about yourself. Share your background, skills, and interests here.</p>
+      </div>
+  </div>
+</section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <!-- Project 1 -->
+      <div class="project">
+          <img src="project1.jpg" alt="Project 1">
+          <h3>Project 1 Title</h3>
+          <p>Description of Project 1.</p>
+          <a href="project1-details.html" class="project-button">Details</a>
+      </div>
+      <!-- Project 2 -->
+      <div class="project">
+          <img src="project2.jpg" alt="Project 2">
+          <h3>Project 2 Title</h3>
+          <p>Description of Project 2.</p>
+          <a href="project2-details.html" class="project-button">Details</a>
+      </div>
   </section>
-   <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-     <!-- Project 1 -->
-    <div class="project">
-      <img src="project1.jpg" alt="Project 1">
-      <h3>To be written</h3>
-      <p>Description of Project 1. To be written</p>
-      <a href="project1-details.html">Details</a>
-    </div>
-    <!-- Project 2 -->
-    <div class="project">
-      <img src="project2.jpg" alt="Project 2">
-      <h3>To be written</h3>
-      <p>Description of Project 2. to be written</p>
-      <a href="project2-details.html">Details</a>
-    </div>
-  </section>
+  
   <!-- About Me Section -->
   <section id="about">
     <h2>About Me</h2>
@@ -69,6 +76,12 @@
   <footer>
     <p>&copy; 2023 Your Portfolio. All rights reserved.</p>
   </footer>
+  <script src="scripts.js"></script>
+  <!--Scroll Button-->
+  <button id="scrollToTop" style="display: none;">Top</button>
+
+</body>
+
 </body>
 
 </html>

@@ -5,7 +5,10 @@ body {
     margin: 0;
     padding: 0;
   }
-  
+  html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
   nav {
     background-color:black;
     padding: 10px;
@@ -31,11 +34,53 @@ body {
     text-decoration: underline;
   }
   
-  /* Home Section */
-  #home {
-    text-align: center;
-    padding: 50px;
-  }
+ /* Home Section */
+#home {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center vertically */
+  padding: 50px;
+  background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.home-container {
+  display: flex; /* Flexbox for image and content layout */
+  align-items: center; /* Center vertically */
+  justify-content: space-between; /* Space between image and text */
+  max-width: 1200px; /* Limit max width for better layout */
+  margin: auto; /* Center the container */
+}
+
+.home-image {
+  flex: 1; /* Image takes up one part of the space */
+  text-align: center; /* Center the image */
+}
+
+.home-image img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.home-content {
+  flex: 2; /* Content takes up two parts of the space */
+  padding-left: 20px; /* Space between image and text */
+}
+
+.home-content h1 {
+  font-family: 'Arial Black', sans-serif; /* Change to your desired font */
+  font-size: 2.5em; /* Adjust font size */
+  color: #333; /* Change text color */
+  margin: 0; /* Remove default margin */
+}
+
+.home-content p {
+  font-family: 'Arial', sans-serif; /* Change to your desired font */
+  font-size: 1.2em; /* Adjust font size */
+  color: #666; /* Change text color */
+  line-height: 1.5; /* Better line spacing */
+}
+
   
   /* Projects Section */
   #projects {
@@ -80,7 +125,7 @@ body {
   /* Footer Section */
   footer {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
     background-color:black;
     color: white;
   }
